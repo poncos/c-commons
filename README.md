@@ -8,6 +8,7 @@ This is a on-going utility library built upon low level C/C++ apis to make easie
 The build scripts are prepared to distribute this library as a shared library named "libc-commons.so", to generate it, the commands shown below must be run within the folder "build"
 
 cmake ..
+
 make
 
 ## Test code
@@ -15,6 +16,7 @@ make
 Within the test folder several classes implemented to test some of the functionalities offered by the library are located, to compile and generate the binaries to execute this test code, the next commands must be run within the folder "test/build"
 
 cmake ..
+
 make
 
 ### Test cases execution
